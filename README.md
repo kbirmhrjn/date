@@ -10,7 +10,7 @@ Installation
 
 Install using composer:
 
-    composer require Kbirmhrjn/date
+    composer require kbirmhrjn/date
 
 This package is compatible with Laravel 4 (but not limited to). If Laravel is detected, the language library from Laravel will be used instead of an own implementation.
 
@@ -200,4 +200,7 @@ You can access and modify all date attributes as an object:
 
     $date->hour = 12;
     $date->minute = 0;
-    $date->second = 0;
+    $date->second = 0
+#License
+    This package is folk from jenssegers/date.
+    
