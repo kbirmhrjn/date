@@ -1,7 +1,7 @@
 Date
 ====
 
-[![Latest Stable Version](http://img.shields.io/github/release/jenssegers/date.svg)](https://packagist.org/packages/jenssegers/date) [![Total Downloads](http://img.shields.io/packagist/dm/jenssegers/date.svg)](https://packagist.org/packages/jenssegers/date) [![Build Status](http://img.shields.io/travis/jenssegers/date.svg)](https://travis-ci.org/jenssegers/date) [![Coverage Status](http://img.shields.io/coveralls/jenssegers/laravel-date.svg)](https://coveralls.io/r/jenssegers/date?branch=master)
+[![Latest Stable Version](http://img.shields.io/github/release/Kbirmhrjn/date.svg)](https://packagist.org/packages/Kbirmhrjn/date) [![Total Downloads](http://img.shields.io/packagist/dm/Kbirmhrjn/date.svg)](https://packagist.org/packages/Kbirmhrjn/date) [![Build Status](http://img.shields.io/travis/Kbirmhrjn/date.svg)](https://travis-ci.org/Kbirmhrjn/date) [![Coverage Status](http://img.shields.io/coveralls/Kbirmhrjn/laravel-date.svg)](https://coveralls.io/r/Kbirmhrjn/date?branch=master)
 
 This date library extends [Carbon](https://github.com/briannesbitt/Carbon) with multi-language support. Methods such as `format`, `diffForHumans`, `parse`, `createFromFormat` and the new `timespan`, will now be translated based on your locale.
 
@@ -11,7 +11,7 @@ Installation
 Install using composer:
 
 ```bash
-composer require jenssegers/date
+composer require Kbirmhrjn/date
 ```
 
 Laravel
@@ -20,13 +20,13 @@ Laravel
 There is a service provider included for integration with the Laravel framework. This provider will get the application locale setting and use this for translations. To register the service provider, add the following to the providers array in `config/app.php`:
 
 ```php
-'Jenssegers\Date\DateServiceProvider',
+'Kbirmhrjn\Date\DateServiceProvider',
 ```
 
 You can also add it as a Facade in `config/app.php`:
 
 ```php
-'Date' => Jenssegers\Date\Date::class,
+'Date' => Kbirmhrjn\Date\Date::class,
 ```
 
 Languages
@@ -84,7 +84,7 @@ Usage
 The Date class extends the Carbon methods such as `format` and `diffForHumans`n and translates them based on your locale:
 
 ```php
-use Jenssegers\Date\Date;
+use Kbirmhrjn\Date\Date;
 
 Date::setLocale('nl');
 
@@ -251,5 +251,6 @@ php generator.php nl_NL
 **NOTE!** If you are adding languages, please check the rules about the capitalization of month and day names: http://meta.wikimedia.org/wiki/Capitalization_of_Wiktionary_pages#Capitalization_of_month_names
 
 ## License
+This is a folk from jenssegers/date package. 
 
 Laravel Date is licensed under [The MIT License (MIT)](LICENSE).

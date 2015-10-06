@@ -1,4 +1,4 @@
-<?php namespace Jenssegers\Date;
+<?php namespace Kbirmhrjn\Date;
 
 use DateTime;
 use DateInterval;

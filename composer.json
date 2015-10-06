@@ -1,12 +1,12 @@
 {
-    "name": "jenssegers/date",
+    "name": "Kbirmhrjn/date",
     "description": "A date library to help you work with dates in different languages",
     "keywords": ["laravel", "date", "time", "datetime", "i18n", "translation", "carbon"],
     "license" : "MIT",
     "authors": [
         {
-            "name": "Jens Segers",
-            "homepage": "http://jenssegers.be"
+            "name": "Kabir Maharjan",
+            "homepage": "http://kabirmaharjan.com.np"
         }
     ],
     "require": {
@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Jenssegers\\Date\\": "src/"
+            "Kbirmhrjn\\Date\\": "src/"
         }
     },
     "extra": {

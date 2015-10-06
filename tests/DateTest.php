@@ -1,6 +1,6 @@
 <?php
 
-use Jenssegers\Date\Date;
+use Kbirmhrjn\Date\Date;
 
 class DateTest extends PHPUnit_Framework_TestCase {
 
@@ -13,7 +13,7 @@ class DateTest extends PHPUnit_Framework_TestCase {
     public function testConstructs()
     {
         $date = new Date;
-        $this->assertInstanceOf('Jenssegers\Date\Date', $date);
+        $this->assertInstanceOf('Kbirmhrjn\Date\Date', $date);
     }
 
     public function testStaticConstructor()

@@ -1,6 +1,6 @@
 <?php
 
-use Jenssegers\Date\Date;
+use Kbirmhrjn\Date\Date;
 use Symfony\Component\Translation\Translator;
 use Symfony\Component\Translation\Loader\ArrayLoader;
 
