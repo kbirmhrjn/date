@@ -1,5 +1,5 @@
 {
-    "name": "Kbirmhrjn/date",
+    "name": "kbirmhrjn/date",
     "description": "A date library to help you work with dates in different languages",
     "keywords": ["laravel", "date", "time", "datetime", "i18n", "translation", "carbon"],
     "license" : "MIT",
