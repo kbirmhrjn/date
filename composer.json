@@ -1,11 +1,11 @@
 {
-    "name": "jenssegers/date",
+    "name": "kbirmhrjn/date",
     "description": "A date library to help you work with dates",
     "keywords": ["laravel","date","time","datetime"],
     "authors": [
         {
-            "name": "Jens Segers",
-            "homepage": "http://jenssegers.be"
+            "name": "Kabir Maharjan",
+            "homepage": "http://kabirmaharjan.com.np"
         }
     ],
     "license" : "MIT",
@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Jenssegers\\Date": "src/"
+            "Kbirmhrjn\\Date": "src/"
         }
     }
 }

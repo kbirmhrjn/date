@@ -1,7 +1,7 @@
 <?php
 
-use Jenssegers\Date\Date;
-use Jenssegers\Date\Translator;
+use Kbirmhrjn\Date\Date;
+use Kbirmhrjn\Date\Translator;
 use Symfony\Component\Translation\MessageSelector;
 
 class AutomaticTest extends PHPUnit_Framework_TestCase {
@@ -132,7 +132,7 @@ class AutomaticTest extends PHPUnit_Framework_TestCase {
 
         foreach ($this->languages as $language)
         {
-            
+
             $translations = include "src/lang/$language/date.php";
 
             $translator = Date::getTranslator();

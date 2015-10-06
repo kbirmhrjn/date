@@ -1,7 +1,7 @@
 Laravel Date
 ============
 
-[![Latest Stable Version](http://img.shields.io/github/release/jenssegers/laravel-date.svg)](https://packagist.org/packages/jenssegers/date) [![Total Downloads](http://img.shields.io/packagist/dm/jenssegers/date.svg)](https://packagist.org/packages/jenssegers/date) [![Build Status](http://img.shields.io/travis/jenssegers/laravel-date.svg)](https://travis-ci.org/jenssegers/laravel-date) [![Coverage Status](http://img.shields.io/coveralls/jenssegers/laravel-date.svg)](https://coveralls.io/r/jenssegers/laravel-date?branch=master)
+[![Latest Stable Version](http://img.shields.io/github/release/Kbirmhrjn/laravel-date.svg)](https://packagist.org/packages/Kbirmhrjn/date) [![Total Downloads](http://img.shields.io/packagist/dm/Kbirmhrjn/date.svg)](https://packagist.org/packages/Kbirmhrjn/date) [![Build Status](http://img.shields.io/travis/Kbirmhrjn/laravel-date.svg)](https://travis-ci.org/Kbirmhrjn/laravel-date) [![Coverage Status](http://img.shields.io/coveralls/Kbirmhrjn/laravel-date.svg)](https://coveralls.io/r/Kbirmhrjn/laravel-date?branch=master)
 
 This date library extends [Carbon](https://github.com/briannesbitt/Carbon) with multi-language support. Methods such as `format`, `diffForHumans` and the new `timespan`, will now be translated based on your locale.
 
@@ -10,17 +10,17 @@ Installation
 
 Install using composer:
 
-    composer require jenssegers/date
+    composer require Kbirmhrjn/date
 
 This package is compatible with Laravel 4 (but not limited to). If Laravel is detected, the language library from Laravel will be used instead of an own implementation.
 
 Add the service provider in `app/config/app.php`:
 
-    'Jenssegers\Date\DateServiceProvider',
+    'Kbirmhrjn\Date\DateServiceProvider',
 
 And add an alias:
 
-    'Date'            => 'Jenssegers\Date\Date',
+    'Date'            => 'Kbirmhrjn\Date\Date',
 
 Languages
 ---------
