@@ -314,6 +314,11 @@ class Date extends Carbon {
         static::getTranslator()->setLocale($locale);
     }
 
+    public static function getLocale()
+    {
+         return static::getTranslator()->getLocale($locale);
+    }
+
     /**
      * Return the Translator implementation
      *
@@ -339,6 +344,7 @@ class Date extends Carbon {
     {
         static::$translator = $translator;
     }
+
 
 
        /**
