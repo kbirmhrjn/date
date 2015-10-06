@@ -340,4 +340,32 @@ class Date extends Carbon {
         static::$translator = $translator;
     }
 
+
+       /**
+     * Translate a locale based time string to its english equivalent.
+     *
+     * @param  string $time
+     * @return string
+     */
+    public static function translateTimeString($time)
+    {
+        // Don't run translations for english.
+        if (static::getLocale() == 'en')
+        {
+            return $time;
+        }
+
+        // All the language file items we can translate.
+        $keys = array('january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september',
+            'october', 'november', 'december', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday',
+            'jan','feb','mar','apr','mar','jun','jul','aug','sep','oct','nov','dec','mon','tue','wed','thu','fri','sat');
+
+        // Get all the language lines of the current locale.
+        $all = require dirname(dirname(dirname(__FILE__))).'/lang/' . static::getLocale() .'/date.php';
+
+        $lines = array_intersect_key($all, array_flip((array) $keys));
+
+        // Replace the translated words with the English words
+        return str_ireplace($lines, array_keys($lines), $time);
+    }
 }

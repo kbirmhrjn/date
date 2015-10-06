@@ -45,4 +45,24 @@ return array(
     'saturday'  => 'lørdag',
     'sunday'    => 'søndag',
 
+    'jan'       => 'jan',
+    'feb'       => 'feb',
+    'mar'       => 'mar',
+    'apr'       => 'apr',
+    'ma'        => 'maj',
+    'jun'       => 'jun',
+    'jul'       => 'jul',
+    'aug'       => 'aug',
+    'sep'       => 'sep',
+    'oct'       => 'okt',
+    'nov'       => 'nov',
+    'dec'       => 'dec',
+
+    'mon'    => 'man',
+    'tue'   => 'tir',
+    'wed' => 'ons',
+    'thu'  => 'tor',
+    'fri'    => 'fre',
+    'sat'  => 'lør',
+    'sun'    => 'søn'
 );

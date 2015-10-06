@@ -22,5 +22,14 @@
         "psr-0": {
             "Jenssegers\\Date": "src/"
         }
+    },
+   "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/kbirmhrjn/date"
+        }
+    ],
+    "require": {
+        "jenssegers/date": "2.0-fix"
     }
 }
