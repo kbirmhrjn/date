@@ -316,7 +316,7 @@ class Date extends Carbon {
 
     public static function getLocale()
     {
-         return static::getTranslator()->getLocale($locale);
+         return static::getTranslator()->getLocale();
     }
 
     /**
